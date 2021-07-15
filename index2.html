@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yummy Pizza</title>
+
+    <meta charset="UTF-8">
+    <meta name=description content= "have the best pizza in the world.">
+    <meta = "keywords" content= "Pizza,best,grab it, yummy">
+
+    <meta name = "author" content="Tushar Chaudhary">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  </head>
+  <body>
+    <header>
+        <h1>Chaudhary Pizza Service</h1>
+        <h3>San Diegos Best Pizza</h3>
+    </header>
+
+    <main>
+
+
+        <section id="contact-form">
+          <h2>Place Order</h2>
+          <form method= "GET" action="place-order.php">
+
+
+            <h4>Delivery</h4>
+            <input name="Deliverymethod" type="radio" value="delivery"/> delivery <br/>
+            <input name="Deliverymethod" type="radio" value="pickup"/> pickup <br/>
+
+
+            <h4>Address</h4>
+            <input name="Address1" placeholder="Address Line 1" class="lg-input" /> <br/>
+            <input name="Address2" placeholder="Address Line 2" class="lg-input" /> <br/>
+            <input name= "city" placeholder="City" class="sm-input" />
+            <input name= "State" placeholder="State" class="sm-input" /> <br/>
+            <input name="zip" placeholder="Zipcode" class="sm-input" /> <br/>
+            <br/>
+
+
+            <h4>Size</h4>
+            <select name="Size">
+              <option value ="12">12" - $13.99 </option>
+              <option value="16">16" - $17.99 </option>
+              <option value="18">18" - $19.99 </option>
+            </select>
+
+
+            <h4> Ingredients </h4>
+            <input name="Ingredients" type="checkbox" value="Onion"/> Onion <br/>
+            <input name="Ingredients" type="checkbox" value="Chicken" />  Chicken <br/>
+            <input name="Ingredients" type="checkbox" value="Bell Peppers"/> Bell Peppers <br/>
+            <input name= "Ingredients" type="checkbox" value="Pineapple"/> Pineapple <br/>
+            <input name="Ingredients" type="checkbox" value="Mushroom"/> Mushroom <br/>
+            <input name="Ingredients" type="checkbox" value="Jalapenos"/> Jalapenos
+            <br/>
+            <br/>
+            <br/>
+
+
+            <button type="Submit"> Place Order </button>
+
+            </video>
+
+          </form>
+        </section>
+
+        <footer>
+          <center>&copy; 2017<br />
+            <a href = "#">Terms of Service</a>
+          </center>
+        </footer>
+
+    </main>
+
+  </body>
+</html>
